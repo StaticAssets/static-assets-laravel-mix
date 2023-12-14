@@ -1,6 +1,6 @@
 {
   "name": "@static-assets/laravel-mix",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Laravel mix helper for Static Assets",
   "main": "static-assets-laravel-mix-plugin.js",
   "scripts": {
@@ -14,12 +14,11 @@
     "laravel-mix": "^6.0.0"
   },
   "keywords": [
-    "Static",
-    "Assets",
+    "Static Assets",
     "Laravel",
     "Mix"
   ],
-  "author": "ben@initdev.com.au",
+  "author": "Init Dev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/StaticAssets/static-assets-laravel-mix/issues"

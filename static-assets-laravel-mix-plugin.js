@@ -5,6 +5,10 @@ if (process.env.STATIC_ASSETS_BUILD) {
         .options({
             processCssUrls: true,
         })
-        .setResourceRoot(process.env.STATIC_ASSETS_URL);
+        .setResourceRoot(process.env.STATIC_ASSETS_URL)
+        .webpackConfig(() => ({
+            output: {
+                publicPath: `${process.env.STATIC_ASSETS_URL}/`,
+            },
+        }));
 }
-
